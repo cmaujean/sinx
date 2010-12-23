@@ -1,0 +1,12 @@
+!!!
+%html
+  %head
+    %title= "SinX#{@title}"
+    %link{:rel => "stylesheet", :href => "css/sinx.css", :type => "text/css", :media => "screen", :charset => "utf-8"}
+  %body
+    #container
+      #header
+      #content
+        = yield
+      #footer
+    
