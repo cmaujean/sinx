@@ -1,0 +1,15 @@
+h1. SinX
+
+h2. Description
+
+A small starter app using:
+
+* sinatra
+* haml
+* less
+* rspec
+* bundler
+
+h2. Todo
+
+# cucumber support?
