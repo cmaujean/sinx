@@ -6,16 +6,38 @@ A small starter app using:
 
 * sinatra
 * bundler
+** uses a standard Gemfile
+** @$ bundle install@
 * haml
 * less
+** @set :precompiled_css, false@ to have less compile your css for you on 
+every request (this is the default for :development)
+** @set :precompiled_css, true@ to have less use a static, compiled css 
+file (this is the default for :production)
 * rspec
-* autotest
+** @$ autotest@
+*** autotest-growl is included
 * cucmber
+** @rake features@
 
+Currently, specs are used to test the SinX functionality. The only feature 
+"features/example.feature":example-feature merely proves that @rake features@ works.
 
+h2. Usage
+
+# Clone the repository 
+# Run the tests
+** @rake spec@
+** @rake features@
+# Write some cucumber for your specific features
+# Red, Green, Refactor
+# Use @shotgun@ to run the app (with code reloading) in dev mode
+# Use "heroku":heroku to run your app live
 
 h2. Todo
 
-# basic user framework
-# facebook integration
+# openid integration, users will be stored in a simple model structure.
 
+
+[example-feature]https://github.com/cmaujean/sinx/blob/master/features/example.feature
+[heroku]http://heroku.com
