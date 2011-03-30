@@ -4,7 +4,10 @@ gem 'sinatra'
 gem 'less'
 gem 'haml'
 
-group :test do 
+group :test, :development do 
+  gem 'shotgun'
+  gem 'cucumber'
+  gem 'webrat'
   gem 'rack-test'
   gem 'autotest'
   gem 'autotest-growl'

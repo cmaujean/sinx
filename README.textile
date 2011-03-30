@@ -5,11 +5,17 @@ h2. Description
 A small starter app using:
 
 * sinatra
+* bundler
 * haml
 * less
 * rspec
-* bundler
+* autotest
+* cucmber
+
+
 
 h2. Todo
 
-# cucumber support?
+# basic user framework
+# facebook integration
+

@@ -5,12 +5,23 @@ GEM
     autotest (4.4.6)
       ZenTest (>= 4.4.1)
     autotest-growl (0.2.9)
+    builder (3.0.0)
+    cucumber (0.10.2)
+      builder (>= 2.1.2)
+      diff-lcs (>= 1.1.2)
+      gherkin (>= 2.3.5)
+      json (>= 1.4.6)
+      term-ansicolor (>= 1.0.5)
     diff-lcs (1.1.2)
+    gherkin (2.3.5)
+      json (>= 1.4.6)
     haml (3.0.25)
+    json (1.5.1)
     less (1.2.21)
       mutter (>= 0.4.2)
       treetop (>= 1.4.2)
     mutter (0.5.3)
+    nokogiri (1.4.4)
     polyglot (0.3.1)
     rack (1.2.1)
     rack-test (0.5.6)
@@ -23,12 +34,19 @@ GEM
     rspec-expectations (2.3.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.3.0)
+    shotgun (0.9)
+      rack (>= 1.0)
     sinatra (1.1.0)
       rack (~> 1.1)
       tilt (~> 1.1)
+    term-ansicolor (1.0.5)
     tilt (1.1)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
+    webrat (0.7.3)
+      nokogiri (>= 1.2.0)
+      rack (>= 1.0)
+      rack-test (>= 0.5.3)
 
 PLATFORMS
   ruby
@@ -36,8 +54,11 @@ PLATFORMS
 DEPENDENCIES
   autotest
   autotest-growl
+  cucumber
   haml
   less
   rack-test
   rspec
+  shotgun
   sinatra
+  webrat
