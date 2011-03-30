@@ -1,6 +1,6 @@
 Feature: User Accounts
   In order to properly test my application
-  As an programmer
+  As a programmer
   I want cucumber
   
   Scenario: cucumber works
